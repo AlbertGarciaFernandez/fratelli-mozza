@@ -10,7 +10,7 @@ export function Location() {
           <PizzaIcon className="w-20 h-20 mx-auto mb-10 text-cream animate-spin-slow" />
           <h2 className="font-heading text-4xl sm:text-6xl md:text-8xl uppercase tracking-tighter mb-7 md:mb-10 leading-[0.95]">Prenota un tavolo</h2>
           <p className="text-lg sm:text-2xl font-medium mb-9 md:mb-12">Te esperamos con el horno encendido y la masa lista.</p>
-          <a href="tel:+34931234567" className="inline-block px-8 sm:px-12 py-4 sm:py-5 bg-cream text-primary-dark font-heading uppercase tracking-widest text-lg sm:text-2xl border-4 border-cream hover:bg-transparent hover:text-cream transition-colors">
+          <a href="tel:+34930272858" className="inline-block px-8 sm:px-12 py-4 sm:py-5 bg-cream text-primary-dark font-heading uppercase tracking-widest text-lg sm:text-2xl border-4 border-cream hover:bg-transparent hover:text-cream transition-colors">
             Llamar ahora
           </a>
         </div>
@@ -46,9 +46,9 @@ export function Location() {
                     <span>Domingo</span>
                     <span>13:30 - 16:00</span>
                   </li>
-                  <li className="flex flex-wrap justify-between gap-x-4 border-b-2 border-cream/30 pb-2 text-cream/60">
+                  <li className="flex flex-wrap justify-between gap-x-4 border-b-2 border-cream/30 pb-2">
                     <span>Lunes</span>
-                    <span>Chiuso (Cerrado)</span>
+                    <span>Abierto / Obert</span>
                   </li>
                 </ul>
               </div>

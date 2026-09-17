@@ -86,19 +86,12 @@ const MenuCover = () => (
       <span className="text-xs tracking-[0.2em] uppercase font-bold">CARTA</span>
     </div>
     <div className="absolute top-8 left-1/2 -translate-x-1/2 text-[10px] tracking-[0.3em] uppercase opacity-80 whitespace-nowrap hidden sm:block">
-      Pizzeria Italiana • Carta
+       Pizzeria Artigianale • Carta
     </div>
     
       <div className="flex-1 flex flex-col items-center justify-center w-full max-w-4xl mx-auto mt-16">
       <img src={brandLogo.src} alt="Fratelli Mozza" className="w-[min(78vw,27rem)] h-auto mb-10 sm:mb-16" />
       
-        <h2 className="font-heading text-2xl sm:text-4xl md:text-6xl text-center uppercase leading-[0.9] max-w-2xl mt-4 sm:mt-8 px-4">
-        100% Italian<br/>Ingredients
-      </h2>
-    </div>
-    
-    <div className="absolute bottom-8 text-[9px] md:text-xs tracking-[0.4em] uppercase text-center w-full">
-      Cerdanyola del Vallès
     </div>
   </div>
 );

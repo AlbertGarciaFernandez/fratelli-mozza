@@ -1,7 +1,7 @@
 import React from 'react';
-import { LogoMascot } from './Icons';
 import brothersImage from '../assets/images/two_italian_brothers_1789594031598.jpg';
 import brandName from '../../assets/name.png';
+import brandLogo from '../../assets/logo.png';
 
 export function Story() {
   return (
@@ -17,7 +17,7 @@ export function Story() {
             />
           </div>
           <div className="absolute -bottom-7 -right-3 sm:-right-7 md:-bottom-10 md:-right-10 bg-cream border-4 border-primary p-4 sm:p-6 rounded-full rotate-12">
-            <LogoMascot className="w-20 h-20 sm:w-24 sm:h-24 text-primary" />
+            <img src={brandLogo.src} alt="Fratelli Mozza" className="w-20 h-20 sm:w-24 sm:h-24 object-contain" />
           </div>
         </div>
         

@@ -14,7 +14,11 @@ export function Hero({ onOpenReservation }: { onOpenReservation?: () => void }) 
       </div>
       
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto flex flex-col items-center">
-        <img src={brandLogo.src} alt="Fratelli Mozza · 100% Italian ingredients" className="w-[min(74vw,22rem)] md:w-[min(32vw,30rem)] h-auto text-primary mb-8 animate-swing" />
+        <img src={brandLogo.src} alt="Fratelli Mozza · 100% Italian ingredients" className="w-[min(74vw,22rem)] md:w-[min(32vw,30rem)] h-auto text-primary mb-7" />
+
+        <p className="font-heading text-xl sm:text-2xl md:text-3xl uppercase tracking-[0.18em] text-primary mb-4">
+          Acqua, farina e sale
+        </p>
         
         <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 text-primary font-heading uppercase tracking-widest text-sm sm:text-lg md:text-2xl mb-10 md:mb-12 px-4">
           <span>Pizzeria Artigianale</span>
@@ -30,6 +34,7 @@ export function Hero({ onOpenReservation }: { onOpenReservation?: () => void }) 
             Reservar
           </button>
         </div>
+
       </div>
       
       {/* Scroll indicator */}
